@@ -1,0 +1,31 @@
+e_palavra('AVACALHADO')
+# True
+e_palavra('AVENTUREIRO')
+# True
+e_palavra('HUMILHANTE')
+# True
+e_palavra('NINFOMANIACA')
+# False
+e_palavra('TRISSILABICO')
+# False
+e_monossilabo('VIL')
+# True
+e_monossilabo('CEU')
+# True
+e_monossilabo('MEL')
+# True
+e_monossilabo(3)
+# e_monossilabo:argumento invalido
+e_monossilabo('EXAME')
+# False
+e_silaba('VIA')
+# True
+e_silaba('LEI')
+# True
+e_silaba('FOI')
+# True
+e_silaba('ID')
+# False
+e_silaba('UV')
+#	False
+
